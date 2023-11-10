@@ -1,0 +1,11 @@
+name: First Worklow <-name of the action
+on: workflow_dispatch(it is a fucking event) <- when the workflow should be executed
+jobs: 
+  first-job:
+    runs-on:ubuntu-latest
+    steps:
+      - name:print greeting
+        run: echo "Hello from mother fucker"
+      - name: print goodbye
+        run: echo "Done little fucker"
+        
