@@ -2,9 +2,9 @@ name: First Worklow
 on: workflow_dispatch
 jobs: 
   first-job:
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
-      - name:print greeting
+      - name: print greeting
         run: echo "Hello from mother fucker"
       - name: print goodbye
         run: echo "Done little fucker"
